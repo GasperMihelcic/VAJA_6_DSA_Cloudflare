@@ -104,7 +104,7 @@ V urejevalniku VS Code spremenite `worker.js`, da Worker izpiše:
 
 Spremembo shranite, potrdite (commit) in pošljite (push) v GitHub. Preverite, ali Cloudflare samodejno izvede gradnjo in objavo. 
 
-    Odgovor ...
+    Odgovor: Da. Po shranjevanju sprememb, izvedbi commita in pošiljanju (push) v GitHub Cloudflare samodejno zazna spremembe v repozitoriju, izvede potrebno gradnjo in objavi novo različico Workerja.
 
 ## 5. Zaščita s Cloudflare Access
 
@@ -145,4 +145,4 @@ Ustvarite še en Worker oziroma ustrezno spremenite obstoječega ter vklopite mo
 
 Kaj vidi neprijavljeni obiskovalec, kaj se zgodi po prijavi in kdaj Worker obdela zahtevo? Pojasnite tudi razliko med prijavo v nadzorno ploščo Cloudflare z računom GitHub in uporabo Cloudflare Access za zaščito Workerja.
 
-    Odgovor ...
+    Odgovor: Neprijavljeni obiskovalec vidi prijavno stran Cloudflare Access, po uspešni prijavi pa lahko dostopa do Workerja, ki šele takrat obdela njegovo zahtevo. Prijava z GitHub računom omogoča dostop do nadzorne plošče Cloudflare, Cloudflare Access pa omejuje dostop do same spletne aplikacije.
