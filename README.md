@@ -92,11 +92,11 @@ V zavihku **Deployments** lahko sedaj spremljate spremembe, ki jih preko GitHub-
 
 V datoteki `wrangler.jsonc` poiščite nastavitve za ime Workerja, glavno datoteko in datum združljivosti. Čemu služijo?
 
-    Odgovor: Name določa ime Workerja v Cloudflare. Main določa glavno datoteko,      v kateri se nahaja koda Workerja. Compatibility_date določa                       datum.združljivosti, ki določa, katere različice funkcionalnosti in API-jev       Cloudflare Workers se uporabljajo pri izvajanju kode.
+    Odgovor: Name določa ime Workerja v Cloudflare. Main določa glavno datoteko, v kateri se nahaja koda Workerja. Compatibility_date določa datum.združljivosti, ki določa, katere različice funkcionalnosti in API-jev Cloudflare Workers se uporabljajo pri izvajanju kode.
 
 V Cloudflare ustvarite Worker, povezan s svojim repozitorijem GitHub. Preverite, da je bil Worker uspešno objavljen, in zapišite njegov URL.
 
-    Odgovor ...
+    Odgovor: vaja-6-dsa-cloudflare.gm08380.workers.dev
 
 V urejevalniku VS Code spremenite `worker.js`, da Worker izpiše:
 
