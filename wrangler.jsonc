@@ -1,5 +1,5 @@
 {
   "name": "vaja-6-dsa-cloudflare",
   "main": "worker.js",
-  "compatibility_date": "2026-11-09"
+  "compatibility_date": "2026-11-13"
 }
