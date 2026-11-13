@@ -12,6 +12,6 @@ export default {
   async fetch(request, env, ctx) {
     // You can view your logs in the Observability dashboard
     console.info({ message: 'Hello World Github request!' }); 
-    return new Response('Hello Github!');
+    return new Response('Pozdravljen Github!');
   }
 };
